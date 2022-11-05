@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#333366"
+    android:orientation="vertical"
+    tools:context="com.example.lq.myapplication.activity.RegisterActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="注册"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp" />
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/regis_phone"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="150dp"
+        android:drawableLeft="@mipmap/email1"
+        android:hint="     邮箱/手机号"
+        android:textColorHint="#FFFFFF" />
+
+    <EditText
+        android:password="true"
+        android:id="@+id/regis_psw"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:drawableLeft="@mipmap/s7"
+        android:hint="     输入密码"
+        android:textColorHint="#FFFFFF" />
+
+
+    <EditText
+        android:password="true"
+        android:id="@+id/regis_againpsw"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:drawableLeft="@mipmap/s7"
+        android:hint="     确认密码"
+        android:textColorHint="#FFFFFF" />
+
+    <Button
+        android:id="@+id/register_zc"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:background="#00fa9a"
+        android:text="注册"
+        android:textColor="#FFFFFF" />
+</LinearLayout>
